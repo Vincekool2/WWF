@@ -1,0 +1,67 @@
+/* fonts */
+@font-face {
+    font-family: "Deadpool";
+    src: url(../css/fonts/deadpool-movie-font/DeadpoolMovie-9AzL.ttf);
+  }
+  h3{
+    font-family: 'Deadpool';
+    color: red;
+    height:  40px;
+  }
+  .con:hover{
+    color: black;
+}
+  h1{
+    font-family: 'deadpool';
+    color: black;
+    align-content: center;
+  }
+  h2{   
+    font-family: 'deadpool';
+    color: red;
+    text-align: center;
+  }
+.imgheader {
+    height: 87vh;
+    background-image: url(../deadpool2/img/deadpoolFond.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  iframe {
+    aspect-ratio: 16 / 9;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 25px;
+  }
+  nav{
+    width:100%;
+    background-color: #000;
+    padding:10px;
+    position: absolute;
+    bottom:0;
+    left:0;
+}
+  .logo{
+    width: 20%;
+  }
+  .pad{ 
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  .perso{   
+    width: 40vh;
+  }
+  .re{
+    width: 25vh;
+  }
+  .liw{
+    width:5%;
+}
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap:20px;
+  flex-wrap: wrap;
+}
