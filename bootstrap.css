@@ -1,67 +1,77 @@
-/* fonts */
-@font-face {
-    font-family: "Deadpool";
-    src: url(../css/fonts/deadpool-movie-font/DeadpoolMovie-9AzL.ttf);
-  }
-  h3{
-    font-family: 'Deadpool';
-    color: red;
-    height:  40px;
-  }
-  .con:hover{
-    color: black;
+*{
+  font-family: "poppins";
 }
-  h1{
-    font-family: 'deadpool';
-    color: black;
-    align-content: center;
-  }
-  h2{   
-    font-family: 'deadpool';
-    color: red;
-    text-align: center;
-  }
+
+.con:hover {
+  color: black;
+}
+li{
+  list-style:none ;
+    }
+li:hover{
+  color: black;
+}
+h1 {
+  align-content: center;
+}
+h2 {
+  text-align: center;
+}
+.relative{
+  position: relative;
+}
 .imgheader {
-    height: 87vh;
-    background-image: url(../deadpool2/img/deadpoolFond.jpg);
-    background-size: cover;
-    background-position: center;
-    position: relative;
-  }
-  iframe {
-    aspect-ratio: 16 / 9;
-    width: 70%;
-    margin-left: 15%;
-    margin-top: 25px;
-  }
-  nav{
-    width:100%;
-    background-color: #000;
-    padding:10px;
-    position: absolute;
-    bottom:0;
-    left:0;
+  height: 120vh;
+  background-image: url(img/tigre.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
-  .logo{
-    width: 20%;
-  }
-  .pad{ 
-    margin-top: 3vh;
-    margin-bottom: 3vh;
-  }
-  .perso{   
-    width: 40vh;
-  }
-  .re{
-    width: 25vh;
-  }
-  .liw{
-    width:5%;
+
+.bouge {
+  width: 100%;
+  background-color: #0000004b;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
-.flex{
+
+.bougeh {
+  width: 100%;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+button{
+  color: white;
+  border: white solid 2px;
+  background-color: lightblue;
+  border-radius: 50px;
+  box-shadow: 0px 5px 5px black;
+}
+.logo {
+  width: 20%;
+} 
+.bouget{
+position: absolute;
+bottom: -40px;
+width: 20%;
+left: 20px;
+}
+.w80{
+
+  width: 60%;
+}
+.flex {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap:20px;
+  gap: 20px;
   flex-wrap: wrap;
+}
+
+.panda{
+  width: 40%;
 }
